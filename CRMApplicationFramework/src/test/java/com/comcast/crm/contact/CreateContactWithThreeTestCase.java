@@ -137,7 +137,7 @@ public class CreateContactWithThreeTestCase extends BaseClass {
 			 //headerInfo=driver.findElement(By.xpath("//span[@class=\"dvHeaderText\"]")).getText();
 			 headerInfo=cp.getHeadertext().getText();
 			 if(headerInfo.contains(contactLastName)) {
-				 System.out.println(contactLastName +"is created==PASS");
+				 System.out.println(contactLastName +"is created=====PASS");
 			 }else {
 				 System.out.println(contactLastName+ "is create==FAIL");
 			 }
@@ -146,7 +146,7 @@ public class CreateContactWithThreeTestCase extends BaseClass {
 			 
 			 //trim is used to ignore the space before string and after string
 			 if(actOrgName.trim().equals(OrgName)) {
-				 System.out.println(OrgName +"is created==PASS");
+				 System.out.println(OrgName +"is created=======PASS");
 			 }else {
 				 System.out.println(OrgName+ "is create==FAIL");
 			
